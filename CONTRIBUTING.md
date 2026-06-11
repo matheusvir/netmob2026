@@ -40,8 +40,8 @@ Este trabalho investiga de que forma diferentes condições climáticas influenc
 netmob2026/
 ├── data/
 │   ├── meteorological_data.csv       # Dados climáticos horários — estação INMET A001, março/2026
-│   ├── mobility_data/                # ⚠️ Ignorado pelo git — telemetria GPS (19 CSVs, 11–31/03, ~1,7 GB)
-│   └── ticket_data/                  # ⚠️ Ignorado pelo git — transações de embarque (31 CSVs, 01–31/03, ~400 MB)
+│   ├── mobility_data/                # Ignorado pelo git — telemetria GPS (~1,7 GB)
+│   └── ticket_data/                  # Ignorado pelo git — transações de embarque (~400 MB)
 └── notebooks/
     ├── 01_eda_weather.ipynb          # EDA e pré-processamento dos dados climáticos
     ├── 02_eda_ticket.ipynb           # EDA e pré-processamento da demanda de passageiros
