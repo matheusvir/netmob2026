@@ -1,0 +1,22 @@
+# Mobility GPS data — too large for GitHub (~1.7 GB, 19 CSVs)
+data/mobility_data/
+
+# Ticket data — restricted access, too large for GitHub (~400 MB, 31 CSVs)
+data/ticket_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.jupyter/
+
+# OS
+.DS_Store
+Thumbs.db
