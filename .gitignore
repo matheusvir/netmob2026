@@ -1,9 +1,6 @@
-# Mobility GPS data — too large for GitHub (~1.7 GB, 19 CSVs)
-data/mobility_data/
-
-# Ticket data — restricted access, too large for GitHub (~400 MB, 31 CSVs)
-data/ticket_data/
-
+# Challenge data — large/restricted, not tracked
+data/data_challenge_netmob_2026/data/
+data/meteorological_data.csv
 # Python
 __pycache__/
 *.py[cod]
