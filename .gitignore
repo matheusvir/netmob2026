@@ -1,6 +1,4 @@
 # Challenge data — large/restricted, not tracked
-data/data_challenge_netmob_2026/data/
-data/meteorological_data.csv
 # Python
 __pycache__/
 *.py[cod]
