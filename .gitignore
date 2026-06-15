@@ -17,3 +17,5 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+data/mobility_data
+data/ticket_data
