@@ -85,9 +85,12 @@ COMMON_SETUP = code(
 NOTEBOOK_04 = [
     md(
         """
-        # 04 · Build analytic base
+        # 04 · Audit analytic base
 
-        Este notebook audita a base analítica integrada construída para a fase final da análise.
+        Este notebook **não constrói** os artefatos derivados; essa etapa agora mora no
+        `00_build_preprocessed_datasets.ipynb`, que é o ponto canônico de build notebook-first.
+        Aqui a função é **auditar** a base analítica integrada já construída para a fase final da análise.
+
         Ele verifica cobertura horária do clima, flags de qualidade da mobilidade, reconciliação
         de rotas e a janela integrada de 19 dias usada nos modelos que combinam ticket + clima + mobilidade.
         """
