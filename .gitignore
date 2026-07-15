@@ -11,6 +11,10 @@ venv/
 
 # Jupyter
 .jupyter/
+*.executed.ipynb
+
+# Derived analysis outputs
+data/derived/
 
 # OS
 .DS_Store
