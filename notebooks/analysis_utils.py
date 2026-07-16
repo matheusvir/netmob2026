@@ -14,7 +14,7 @@ from typing import Iterable, Sequence
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-NETMOB_DATA_ROOT = PROJECT_ROOT.parent / "netmob" / "data"
+NETMOB_DATA_ROOT = PROJECT_ROOT / "data"
 LOCAL_DATA_ROOT = PROJECT_ROOT / "data"
 
 _DATA_ROOTS: tuple[Path, ...] = (NETMOB_DATA_ROOT, LOCAL_DATA_ROOT)
