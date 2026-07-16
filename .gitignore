@@ -16,8 +16,14 @@ venv/
 # Derived analysis outputs
 data/derived/
 
+# External/raw challenge datasets — kept outside Git history
+data/mobility_data/
+data/ticket_data/
+data/GTFS_data/
+data/social_data/
+data/auxiliar_data/
+data/ibge_census_data_2022/
+
 # OS
 .DS_Store
 Thumbs.db
-data/mobility_data
-data/ticket_data
